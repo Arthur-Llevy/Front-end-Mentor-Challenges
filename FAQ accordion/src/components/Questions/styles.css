@@ -1,0 +1,31 @@
+.questions-container {
+  display: grid;
+  grid-template-columns: 95% 5%;
+  height: auto;
+  min-height: 50px;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.questions-container:not(:last-child) {
+  border-bottom: 1px solid hsl(275, 100%, 97%);
+}
+
+.questions-container p:first-child {
+  font-weight: 700;
+  color: hsl(292, 42%, 14%);
+}
+
+.questions-container p:first-child:hover {
+  color: #AD28EB;
+}
+
+.questions-container img {
+  cursor: pointer;
+}
+
+.questions-container p:last-child {
+  color: hsl(292, 16%, 49%);
+  margin: 20px 0;
+}
